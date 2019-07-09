@@ -1,6 +1,10 @@
 {
   "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "Counter Application Using React Class Components",
+  "tags": [
+    "react-class",
+    "beginner-level"
+  ],
   "icons": [
     {
       "src": "favicon.ico",
