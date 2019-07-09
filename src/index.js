@@ -13,7 +13,7 @@ import '@binaris/shift-babel-macro/macro';
  * a value directly, these functions return a Promise() to the return value,
  * so make sure to use .then() or await to get the actual response.
  */
-import { backendGet, backendIncrement } from '../backend/backend.js';
+import { backendGet, backendIncrement } from '../backend/backend';
 
 import './index.css';
 
