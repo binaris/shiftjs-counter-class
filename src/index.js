@@ -13,7 +13,10 @@ import '@binaris/shift-babel-macro/macro';
  * a value directly, these functions return a Promise() to the return value,
  * so make sure to use .then() or await to get the actual response.
  */
-import { backendGet, backendIncrement } from '../backend/backend';
+import {
+  backendGetCounter,
+  backendIncrementCounter,
+} from '../backend/backend';
 
 import './index.css';
 
@@ -30,7 +33,7 @@ class Counter extends React.Component {
      * Any backend function returns a Promise() which is resolved with the
      * value returned from the backend.
      */
-    backendGet()
+    backendGetCounter()
 
       /*
        * The backend returns the count value. This value is undefined
@@ -59,7 +62,7 @@ class Counter extends React.Component {
    */
   increment() {
     this.setState({ count: this.state.count + 1 });
-    backendIncrement();
+    backendIncrementCounter();
   }
 
   render() {
