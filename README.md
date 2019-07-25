@@ -8,4 +8,4 @@ reloaded.
 This template is implemented using React class components. A template based
 on React Hooks is also available.
 
-\#counter \#noob \#class
+Keywords: counter noob react-class
