@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "",
+  "title": "Counter-Hooks",
+  "description": "Applicarion data schema",
+  "type": "object",
+  "required": [ ],
+  "properties": {
+    "counter": {
+      "description": "Counter value",
+      "type": "integer",
+      "minimum": 0,
+    }
+  }
+}
