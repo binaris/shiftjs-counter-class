@@ -54,7 +54,7 @@ export default class Counter extends React.Component {
    * send the update to the backend. This results in a more responsive UI
    * but has the downside that the display is updated before the new value
    * is persisted in the backend. If the backend fails to update, the user
-   * will think that the counter was upated, but a subsequent app reload
+   * will think that the counter was updated, but a subsequent app reload
    * would show a different value.
    *
    * In a real app, we would probably wait for the backend to update before
@@ -75,7 +75,7 @@ export default class Counter extends React.Component {
     }
 
     /*
-     * A null count indicates an error occured while calling the backend
+     * A null count indicates an error occurred while calling the backend
      * function. The page will simply display an error string in this case.
      */
     if (this.state.count === null) {
