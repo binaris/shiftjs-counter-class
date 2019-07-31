@@ -18,7 +18,7 @@ import {
   counterIncrement,
 } from '../backend/counter';
 
-/*
+/**
  * Counter component.
  */
 export default class Counter extends React.Component {
