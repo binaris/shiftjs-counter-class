@@ -6,7 +6,7 @@ import { get, update } from '@binaris/shift-db';
  * @return { number } - counter value
  */
 /* @expose */
-export async function backendGetCounter() {
+export async function counterGet() {
   return get('counter');
 }
 
@@ -16,6 +16,6 @@ export async function backendGetCounter() {
  * @return { number } - counter value
  */
 /* @expose */
-export async function backendIncrementCounter() {
+export async function counterIncrement() {
   return update('counter', c => c + 1, 0);
 }
