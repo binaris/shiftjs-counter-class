@@ -17,5 +17,5 @@ export async function counterGet() {
  */
 /* @expose */
 export async function counterIncrement() {
-  return update('counter', c => c + 1, 0);
+  return update('counter', (c = 0) => c + 1);
 }
