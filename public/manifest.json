@@ -1,10 +1,6 @@
 {
   "short_name": "React App",
   "name": "Counter Application Using React Class Components",
-  "tags": [
-    "react-class",
-    "beginner-level"
-  ],
   "icons": [
     {
       "src": "favicon.ico",
