@@ -3,7 +3,7 @@ import { get, update } from '@binaris/shift-db';
 /**
  * Get the current value for the counter.
  *
- * @return { number } - counter value
+ * @return { Promise<number> } - counter value
  */
 /* @expose */
 export async function counterGet() {
@@ -13,7 +13,7 @@ export async function counterGet() {
 /**
  * Increment the current counter value by one.
  *
- * @return { number } - counter value
+ * @return { Promise<number> } - counter value
  */
 /* @expose */
 export async function counterIncrement() {
