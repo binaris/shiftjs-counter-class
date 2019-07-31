@@ -4,7 +4,7 @@
   "title": "Counter-Hooks",
   "description": "Application data schema",
   "type": "object",
-  "required": [ ],
+  "required": [],
   "properties": {
     "counter": {
       "description": "Counter value",
