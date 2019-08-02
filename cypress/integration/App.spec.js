@@ -1,6 +1,6 @@
 describe("Base React Application", () => {
-  it("Shows Learn React", () => {
+  it("Shows Counter", () => {
     cy.visit("/");
-    cy.contains('Learn React');
+    cy.contains('+1');
   });
 });
