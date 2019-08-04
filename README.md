@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/binaris/shiftjs.svg?style=svg)](https://circleci.com/gh/binaris/shiftjs-counter-class)
+
 This is a [ShiftJS template](https://shiftjs.com/).
 
 Counter is our very basic template. It displays a single number on screen
