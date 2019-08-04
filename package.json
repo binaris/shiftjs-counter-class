@@ -2,6 +2,7 @@
   "name": "template-template",
   "version": "0.1.1",
   "private": true,
+  "license": "MIT",
   "dependencies": {
     "@binaris/shift-babel-macro": "0.0.3",
     "@binaris/shift-db": "^0.1.2",
