@@ -61,7 +61,8 @@ export default class Counter extends React.Component {
    *
    * In a real app, we would probably wait for the backend to update before
    * updating the display. Alternatively we could update the display first
-   * but add an indicator for 'Updating' or 'Saving'.
+   * but add an indicator for 'Updating' or 'Saving'. We should also take
+   * care to display the appropriate error message if the update fails.
    */
   increment() {
     this.setState({ count: this.state.count + 1 });
