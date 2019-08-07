@@ -12,8 +12,11 @@
 }
 
 .Counter .increment {
-  background: linear-gradient(rgba(255, 255, 255, 0.9),
-                              rgba(222, 222, 222, 0.9));
+  background:
+    linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(222, 222, 222, 0.9)
+    );
   border-color: #ccc;
   border-radius: 10px;
   border-style: solid;
@@ -26,6 +29,9 @@
 }
 
 .Counter .increment:active {
-  background: linear-gradient(rgba(212, 212, 212, 0.9),
-                              rgba(222, 222, 222, 0.9));
+  background:
+    linear-gradient(
+      rgba(212, 212, 212, 0.9),
+      rgba(222, 222, 222, 0.9)
+    );
 }
