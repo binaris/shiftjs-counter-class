@@ -17,10 +17,13 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint src"
+    "lint": "eslint backend && stylelint src"
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-standard"
   },
   "browserslist": {
     "production": [
@@ -35,6 +38,8 @@
     ]
   },
   "devDependencies": {
-    "cypress": "^3.4.1"
+    "cypress": "^3.4.1",
+    "stylelint": "^10.1.0",
+    "stylelint-config-standard": "^18.3.0"
   }
 }
