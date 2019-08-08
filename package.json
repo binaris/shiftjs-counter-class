@@ -4,10 +4,10 @@
   "private": true,
   "license": "MIT",
   "dependencies": {
-    "@binaris/shift-babel-macro": "0.0.3",
-    "@binaris/shift-db": "^0.1.2",
-    "@binaris/shift-fetch-runtime": "0.0.2",
-    "@binaris/shift-local-proxy": "0.0.4",
+    "@binaris/shift-code-transform": "0.0.2",
+    "@binaris/shift-db": "^0.3.0",
+    "@binaris/shift-fetch-runtime": "0.0.3",
+    "@binaris/shift-local-proxy": "0.0.8",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
