@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/binaris/shiftjs.svg?style=svg)](https://circleci.com/gh/binaris/shiftjs-counter-class)
+[![CircleCI](https://circleci.com/gh/shiftjs/counter-class.svg?style=svg)](https://circleci.com/gh/shiftjs/counter-class)
 
 This is a [ShiftJS template](https://shiftjs.com/).
 
