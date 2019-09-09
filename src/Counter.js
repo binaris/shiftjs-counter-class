@@ -65,7 +65,7 @@ export default class Counter extends React.Component {
    * care to display the appropriate error message if the update fails.
    */
   increment() {
-    this.setState({ count: this.state.count + 1 });
+    this.setState((prevState) => ({ count: prevState.count + 1 }) );
     counterIncrement();
   }
 
