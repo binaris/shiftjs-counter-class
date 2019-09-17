@@ -1,4 +1,4 @@
-import { get, update } from '@binaris/shift-db';
+import { get, update } from '@reshuffle/db';
 
 /**
  * Get the current value for the counter.
