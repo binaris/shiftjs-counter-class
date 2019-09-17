@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/reshuffle/counter-class.svg?style=svg)](https://circleci.com/gh/reshuffle/counter-class)
+[![CircleCI](https://circleci.com/gh/reshufflehq/counter-class.svg?style=svg)](https://circleci.com/gh/reshufflehq/counter-class)
 
 This is a [Reshuffle](https://reshuffle.com/) template.
 
