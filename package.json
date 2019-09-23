@@ -5,9 +5,9 @@
   "license": "MIT",
   "dependencies": {
     "@reshuffle/code-transform": "^0.0.3",
-    "@reshuffle/db": "^0.5.1",
+    "@reshuffle/db": "^0.5.2",
     "@reshuffle/fetch-runtime": "^0.0.5",
-    "@reshuffle/local-proxy": "^0.2.6",
+    "@reshuffle/local-proxy": "^0.2.8",
     "@reshuffle/server-function": "^0.0.6",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
