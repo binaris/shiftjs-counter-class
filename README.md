@@ -11,3 +11,7 @@ This template is implemented using React class components. A template based
 on React Hooks is also available.
 
 Keywords: counter level:noob arch:react-class stage:tutorial
+
+## Screenshots:
+
+<img src="./app-screen.png" width="50%" height="50%">
